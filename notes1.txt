@@ -1,4 +1,3 @@
 Hello World
-My name is Uno
 This is my first day
 Testing
