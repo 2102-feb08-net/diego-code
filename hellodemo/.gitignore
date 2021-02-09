@@ -1,0 +1,4 @@
+# Each line specifies a pattern
+# If a file matches a pattern it will be ignored
+bin
+obj
