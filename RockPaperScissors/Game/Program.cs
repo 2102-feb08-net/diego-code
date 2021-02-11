@@ -18,7 +18,6 @@ namespace RPSGame
             Match ManVSMachine = new Match();
             
 
-
             while(!p1Input.Equals("y"))
             {
                 // Get P1 input
@@ -39,8 +38,9 @@ namespace RPSGame
 
             // Display results 
             ManVSMachine.AnnounceResults();
-            
-            
+                        
         }
+
     }
+    
 }
