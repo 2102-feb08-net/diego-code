@@ -7,6 +7,7 @@ namespace Ref
     {
         static int P1Wins = 0;
         static int COMWins = 0;
+
         // Valid Choices
         enum ValidChoices
         {
@@ -20,15 +21,14 @@ namespace Ref
         {
             if(P1Choice.Equals(ValidChoices.Rock.ToString()) || P1Choice.Equals(ValidChoices.Paper.ToString()) || P1Choice.Equals(ValidChoices.Scissors.ToString()))
             {
-                //Console.WriteLine("You can play");
                 EvaluateMatch(P1Choice, COMChoice);
-
             }
             else 
             {
                 Console.WriteLine("Rock, Paper, or Scissors only. Try again.");
             }
         }
+        
         // Evaluate Match 
         public void EvaluateMatch(String P1Choice, String COMChoice)
         {
