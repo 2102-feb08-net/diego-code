@@ -66,3 +66,8 @@ GROUP BY Orders.OrderId;
 SELECT SUM(Orders.OrderId * Products.Price)
 FROM Orders INNER JOIN Products ON Products.ProductId = Orders.OrderId
 WHERE Products.Name = 'iPhone';
+
+--7.
+UPDATE Products
+SET Price = 250.00
+WHERE ProductId = 4;
